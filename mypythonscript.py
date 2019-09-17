@@ -9,7 +9,7 @@ def collatz(n):
             # n is odd multiply by three and add one.
             n = 3*n + 1
         else:
-            # n is even divide by two
+            # n is if even divide by two
             n = n//2
     print(1, end='')
  
